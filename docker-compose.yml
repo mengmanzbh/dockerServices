@@ -16,3 +16,22 @@ services:
     depends_on:
       - product-service
 
+
+#version: '3'
+# services:
+#   product-service:
+#      image: mengmanzbh/productservice
+#      ports:
+#        - 6001:80
+
+#   website:
+#     image: php:apache
+#     volumes:
+#       - ./website:/var/www/html
+#     ports:
+#       - 6000:80
+#     depends_on:
+#       - product-service
+
+
+
